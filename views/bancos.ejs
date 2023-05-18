@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Bancos</title>
+    <link rel="stylesheet" type="text/css" href="/bancos.css">
   </head>
   <body>
     <h1>Bancos</h1>
-    <ul>
+    <ul class="zebrado">
       <% data.forEach(banco => { %>
         <li><%= banco.name %></li>
       <% }); %>
     </ul>
   </body>
 </html>
-
-
